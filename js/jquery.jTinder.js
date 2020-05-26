@@ -77,6 +77,7 @@
 				}
 				$that.next();
 			});
+			console.log("liked this bro!");
 		},
 
 		handler: function (ev) {

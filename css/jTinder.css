@@ -32,7 +32,7 @@ body {
 #tinderslide li {
     display: block;
     width: 100%;
-    height: 100%;
+    height: 80vh;
     overflow: hidden;
     position: absolute;
     top: 0;
@@ -188,23 +188,43 @@ body {
 
 /* jTinder images */
 #tinderslide .pane5 .img {
-    background: url("../img/pane/pane5.jpg") no-repeat scroll center center;
+    background: url("../img/pane/Hunter.jpg") no-repeat scroll center center;
     background-size: cover;
 }
 #tinderslide .pane4 .img {
-    background: url("../img/pane/pane4.jpg") no-repeat scroll center center;
+    background: url("../img/pane/Skyler.jpg") no-repeat scroll center center;
     background-size: cover;
 }
 #tinderslide .pane3 .img {
-    background: url("../img/pane/pane3.jpg") no-repeat scroll center center;
+    background: url("../img/pane/Dustin.jpg") no-repeat scroll center center;
     background-size: cover;
 }
 #tinderslide .pane2 .img {
-    background: url("../img/pane/pane2.jpg") no-repeat scroll center center;
+    background: url("../img/pane/Javier.jpg") no-repeat scroll center center;
     background-size: cover;
 }
 #tinderslide .pane1 .img {
-    background: url("../img/pane/pane1.jpg") no-repeat scroll center center;
+    background: url("../img/pane/Vince.jpg") no-repeat scroll center center;
+    background-size: cover;
+}
+#tinderslide .pane6 .img {
+    background: url("../img/pane/Eduardo.jpg") no-repeat scroll center center;
+    background-size: cover;
+}
+#tinderslide .pane7 .img {
+    background: url("../img/pane/Logan.jpg") no-repeat scroll center center;
+    background-size: cover;
+}
+#tinderslide .pane8 .img {
+    background: url("../img/pane/Sebastian.jpg") no-repeat scroll center center;
+    background-size: cover;
+}
+#tinderslide .pane9 .img {
+    background: url("../img/pane/Justin.png") no-repeat scroll center center;
+    background-size: cover;
+}
+#tinderslide .pane10 .img {
+    background: url("../img/pane/Jackie.jpg") no-repeat scroll center center;
     background-size: cover;
 }
 
