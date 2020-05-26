@@ -220,13 +220,18 @@ body {
     background-size: cover;
 }
 #tinderslide .pane9 .img {
-    background: url("./pane/Justin.png") no-repeat scroll center center;
+    background: url("./pane/Blake.jpg") no-repeat scroll center center;
     background-size: cover;
 }
 #tinderslide .pane10 .img {
+    background: url("./pane/Justin.png") no-repeat scroll center center;
+    background-size: cover;
+}
+#tinderslide .pane11 .img {
     background: url("./pane/Jackie.jpg") no-repeat scroll center center;
     background-size: cover;
 }
+
 
 /* jTinder status text */
 #status {
