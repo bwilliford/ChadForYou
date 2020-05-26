@@ -188,43 +188,43 @@ body {
 
 /* jTinder images */
 #tinderslide .pane5 .img {
-    background: url("../img/pane/Hunter.jpg") no-repeat scroll center center;
+    background: url("./pane/Hunter.jpg") no-repeat scroll center center;
     background-size: cover;
 }
 #tinderslide .pane4 .img {
-    background: url("../img/pane/Skyler.jpg") no-repeat scroll center center;
+    background: url("./pane/Skyler.jpg") no-repeat scroll center center;
     background-size: cover;
 }
 #tinderslide .pane3 .img {
-    background: url("../img/pane/Dustin.jpg") no-repeat scroll center center;
+    background: url("./pane/Dustin.jpg") no-repeat scroll center center;
     background-size: cover;
 }
 #tinderslide .pane2 .img {
-    background: url("../img/pane/Javier.jpg") no-repeat scroll center center;
+    background: url("./pane/Javier.jpg") no-repeat scroll center center;
     background-size: cover;
 }
 #tinderslide .pane1 .img {
-    background: url("../img/pane/Vince.jpg") no-repeat scroll center center;
+    background: url("./pane/Vince.jpg") no-repeat scroll center center;
     background-size: cover;
 }
 #tinderslide .pane6 .img {
-    background: url("../img/pane/Eduardo.jpg") no-repeat scroll center center;
+    background: url("./pane/Eduardo.jpg") no-repeat scroll center center;
     background-size: cover;
 }
 #tinderslide .pane7 .img {
-    background: url("../img/pane/Logan.jpg") no-repeat scroll center center;
+    background: url("./pane/Logan.jpg") no-repeat scroll center center;
     background-size: cover;
 }
 #tinderslide .pane8 .img {
-    background: url("../img/pane/Sebastian.jpg") no-repeat scroll center center;
+    background: url("./pane/Sebastian.jpg") no-repeat scroll center center;
     background-size: cover;
 }
 #tinderslide .pane9 .img {
-    background: url("../img/pane/Justin.png") no-repeat scroll center center;
+    background: url("./pane/Justin.png") no-repeat scroll center center;
     background-size: cover;
 }
 #tinderslide .pane10 .img {
-    background: url("../img/pane/Jackie.jpg") no-repeat scroll center center;
+    background: url("./pane/Jackie.jpg") no-repeat scroll center center;
     background-size: cover;
 }
 
