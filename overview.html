@@ -11,9 +11,10 @@
 </head>
 <body>
 
-  <div id="matchOverlay">
-    <h3 class="center-align">You matched!</h3>
+  <div id="matchOverlay" onclick="hideOverlay()">
+    <h3 class="center-align" style="margin-top: 30vh;">You matched!</h3>
     <h4 class="center-align">You've got a wingman. You're getting laid tonight.</h4>
+    <center><div class="btn center-align button" onclick="hideOverlay()">Sweet</div></center>
   </div>
 
   
@@ -27,61 +28,61 @@
             <ul>
                 <li class="pane1">
                     <div class="img"></div>
-                    <div>Hunter</div>
+                    <div>Hunter <span style="text-align: right; color: #777; font-size: 14px;">2.5 miles away</span></div>
                     <div class="like"></div>
                     <div class="dislike"></div>
                 </li>
                 <li class="pane2">
                     <div class="img"></div>
-                    <div>Javier</div>
+                    <div>Javier <span style="text-align: right; color: #777; font-size: 14px;">1.1 miles away</span></div>
                     <div class="like"></div>
                     <div class="dislike"></div>
                 </li>
                 <li class="pane3">
                     <div class="img"></div>
-                    <div>Dustin</div>
+                    <div>Dustin <span style="text-align: right; color: #777; font-size: 14px;">0.6 miles away</span></div>
                     <div class="like"></div>
                     <div class="dislike"></div>
                 </li>
                 <li class="pane4">
                     <div class="img"></div>
-                    <div>Chad</div>
+                    <div>Chad <span style="text-align: right; color: #777; font-size: 14px;">7.2 miles away</span></div>
                     <div class="like"></div>
                     <div class="dislike"></div>
                 </li>
                 <li class="pane5">
                     <div class="img"></div>
-                    <div>Bryan</div>
+                    <div>Guillermo <span style="text-align: right; color: #777; font-size: 14px;">2.7 miles away</span></div>
                     <div class="like"></div>
                     <div class="dislike"></div>
                 </li>
                 <li class="pane6">
                   <div class="img"></div>
-                  <div>Bryan</div>
+                  <div>Bryan <span style="text-align: right; color: #777; font-size: 14px;">2.3 miles away</span></div>
                   <div class="like"></div>
                   <div class="dislike"></div>
                 </li>
                 <li class="pane7">
                   <div class="img"></div>
-                  <div>Logan</div>
+                  <div>Logan <span style="text-align: right; color: #777; font-size: 14px;">4.2 miles away</span></div>
                   <div class="like"></div>
                   <div class="dislike"></div>
                 </li>
                 <li class="pane8">
                   <div class="img"></div>
-                  <div>Sebastian</div>
+                  <div>Sebastian <span style="text-align: right; color: #777; font-size: 14px;">3.4 miles away</span></div>
                   <div class="like"></div>
                   <div class="dislike"></div>
                 </li>
                 <li class="pane9">
                   <div class="img"></div>
-                  <div>Hunter</div>
+                  <div>Hunter <span style="text-align: right; color: #777; font-size: 14px;">5.7 miles away</span></div>
                   <div class="like"></div>
                   <div class="dislike"></div>
                </li>
                <li class="pane10">
                 <div class="img"></div>
-                <div>Jackie</div>
+                <div>Jack <span style="text-align: right; color: #777; font-size: 14px;">2.1 miles away</span></div>
                 <div class="like"></div>
                 <div class="dislike"></div>
              </li>
@@ -114,6 +115,9 @@
         document.getElementById('matchOverlay').className = 'active';
       }
 
+      function hideOverlay() {
+        document.getElementById('matchOverlay').className = '';
+      }
     </script>
 
 </body>

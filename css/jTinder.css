@@ -61,7 +61,7 @@ body {
 #tinderslide li h2 {
     color: #fff;
     font-size: 30px;
-    text-align: center;
+    text-align: left;
     position: absolute;
     top: 40%;
     left: 0;
@@ -252,3 +252,8 @@ body {
     display: block;
     opacity: 0.9;
 }   
+
+.button {
+    margin: 0 auto;
+    border-radius: 30px;
+}
