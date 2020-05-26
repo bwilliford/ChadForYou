@@ -77,7 +77,6 @@
 				}
 				$that.next();
 			});
-			console.log("liked this bro!");
 		},
 
 		handler: function (ev) {
@@ -142,6 +141,8 @@
 									$that.settings.onLike(panes.eq(current_pane));
 								}
 								$that.next();
+								
+								displayOverlay();
 							});
 						} else {
 							panes.eq(current_pane).animate({"transform": "translate(-" + (pane_width) + "px," + (posY + pane_width) + "px) rotate(-60deg)"}, $that.settings.animationSpeed, function () {

@@ -32,7 +32,7 @@ body {
 #tinderslide li {
     display: block;
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     overflow: hidden;
     position: absolute;
     top: 0;
@@ -236,3 +236,19 @@ body {
     margin-top: 30px;
     font-weight: bold;
 }
+
+#matchOverlay {
+    display: none;
+    opacity: 0;
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 10;
+    margin-top: -30px;
+}
+
+#matchOverlay.active {
+    display: block;
+    opacity: 0.9;
+}   

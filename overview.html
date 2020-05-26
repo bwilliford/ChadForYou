@@ -10,6 +10,14 @@
     <link rel="stylesheet" type="text/css" href="css/jTinder.css">
 </head>
 <body>
+
+  <div id="matchOverlay">
+    <h3 class="center-align">You matched!</h3>
+    <h4 class="center-align">You've got a wingman. You're getting laid tonight.</h4>
+  </div>
+
+  
+
   <h3 class="center-align">Choose your Chad</h3>
     <!-- start padding container -->
     <div class="wrap">
@@ -100,5 +108,13 @@
     <script type="text/javascript" src="js/jquery.jTinder.js"></script>
     <!-- jTinder initialization script -->
     <script type="text/javascript" src="js/main.js"></script>
+    <script>
+
+      function displayOverlay() {
+        document.getElementById('matchOverlay').className = 'active';
+      }
+
+    </script>
+
 </body>
 </html>
